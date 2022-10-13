@@ -1,0 +1,24 @@
+
+.header{
+    background-color: #63c6b3;
+}
+.headertitles{
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headertitle1{
+    font-size: 50px;
+}
+.headertitle2{
+    font-size: 22px;
+}
+.header-img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 50px;
+    z-index: -1;
+}
