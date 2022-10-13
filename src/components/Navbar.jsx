@@ -22,7 +22,7 @@ export default function Navbar() {
       </div>
       <div className='navr'>
       <i class="fa-solid fa-magnifying-glass"></i>
-      <img className="profile-img" src='images/images.jpeg'/>
+      <img className="profile-img" src='images.jpeg'/>
        </div>
 
       </div>
