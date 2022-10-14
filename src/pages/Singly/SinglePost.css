@@ -20,7 +20,7 @@
 }
 .singlepostedit{
     float: right;
-    margin-top: -40px;
+    margin-top: -50px;
     display: flex;
 }
 .singleposticons{
@@ -28,4 +28,26 @@
     padding: 20px 20px 20px 20px;
     cursor:pointer;
 }
-
+.singleposticons:first-child{
+    color:teal;
+}
+.singleposticons:last-child{
+    color:red;
+}
+.singlepostinfo{
+    margin-bottom:20px;
+    display:flex;
+    justify-content:space-between;
+    font-size: 16px;
+    color:teal;
+}
+.singlepostdesc{
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlepostdesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
