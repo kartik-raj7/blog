@@ -7,7 +7,7 @@ export default function Navbar() {
       
       <div className='navl'>
       
-      <h1>Left</h1>
+      <h1> Blogging </h1>&nbsp;
       <i class="fa-solid fa-pen-nib"></i>
       </div>
       <div className='navc'>

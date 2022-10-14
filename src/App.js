@@ -6,11 +6,13 @@ import About from './pages/About';
 import Contactus from './pages/Contact';
 import Logout from './pages/Logout';
 import Write from './pages/Write';
+import Single from './pages/Singly/Single';
 // import Error404 from './pages/Error404';
 function App() {
   return (
     <>
-    <Home/>
+      <Navbar/>
+      <Single/>
       {/* <Router>
         <Navbar />
         <Routes>
