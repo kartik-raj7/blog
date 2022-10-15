@@ -7,12 +7,14 @@ import Contactus from './pages/Contact';
 import Logout from './pages/Logout';
 import Write from './pages/Write';
 import Single from './pages/Singly/Single';
+import Settings from './pages/Settings';
 // import Error404 from './pages/Error404';
 function App() {
   return (
     <>
       <Navbar/>
-      <Single/>
+      <Settings/>
+      {/* <Write/> */}
       {/* <Router>
         <Navbar />
         <Routes>

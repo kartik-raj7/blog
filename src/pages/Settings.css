@@ -1,0 +1,49 @@
+.settings{
+    display: flex;
+}
+
+.settingswrapper{
+    flex:9;
+}
+.settingstitle{
+    display: flex;
+    align-items: center;
+}
+.settingsupdatetitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:lightcoral;
+}
+.settingsdeletetitle{
+    color:red;
+    font-size:12px;
+    cursor:pointer;
+    margin-left:240px;
+}
+.settingsform{
+    display: flex;
+    flex-direction:column;
+}
+.settingsdp{
+    display:flex;
+    align-items: center;
+    margin: 10px 0px ;
+}
+.settingsdp > img{
+    width:70px;
+    height:70px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+.settingsdpicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: coral;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10px;
+    cursor: pointer;
+}
