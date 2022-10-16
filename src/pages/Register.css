@@ -1,0 +1,48 @@
+.register{
+    height: calc(100vh-50px);
+    display:flex;
+    padding: 250px 50px 250px 50px;
+    flex-direction: column;
+    justify-content: center;
+    background: url("/public/landscape.jpeg");
+    background-size:cover;
+    align-items: center;
+}
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform>label{
+    margin: 10px;
+    color:white;
+}
+.loginbutton {
+    margin-top: 20px;
+    cursor:pointer;
+    text-align: center;
+    background-color: #63c6b3;
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+}
+.registerbutton{
+    position: absolute;
+    top:60px;
+    right:35px;
+    background-color: #63c6b3;
+    color:white;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 17.5px;
+    cursor:pointer;
+    z-index: 999;
+}
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registertitle{
+    font-size: 50px;
+}

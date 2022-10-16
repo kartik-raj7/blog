@@ -7,7 +7,7 @@ import "./Home.css"
 function Home(){
     return(
      <div>
-     <Navbar/>
+     {/* <Navbar/> */}
      <Mainpage/>
      <div className='home'>
      <Posts/>
